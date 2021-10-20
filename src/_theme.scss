@@ -1,24 +1,35 @@
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
-
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Ubuntu+Mono&display=swap");
-
-$custom-body-font: "Open Sans";
-$custom-mono-font: "Ubuntu Mono";
-$custom-header-font: "Julius Sans One";
-
-$custom-code-pink: #e3118f;
-$custom-grey-pink: #2b292a;
-
-$font-family-base: $custom-body-font;
-$headings-font-family: $custom-header-font;
-$font-family-monospace: $custom-mono-font;
-$font-family-code: $custom-mono-font;
-
+@import "variables.scss";
 @import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.active {
+  color: $custom-code-pink;
+}
 
 .btn-primary {
   background-color: $custom-code-pink;
   border: none;
+}
+
+.navbar {
+  font-family: $custom-header-font;
+}
+
+.card {
+  background-color: $custom-grey-pink;
+}
+
+.nav .nav-tabs .nav-item .nav-link {
+  background-color: $custom-grey-pink;
+}
+
+strong {
+  color: $custom-code-pink;
 }

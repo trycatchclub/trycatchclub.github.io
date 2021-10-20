@@ -1,0 +1,18 @@
+@import "../variables";
+
+.description {
+  margin: $container-margin;
+  .explanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+  }
+  .code {
+    padding: 2rem;
+    font-family: $custom-mono-font;
+    white-space: pre-line;
+  }
+}

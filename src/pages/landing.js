@@ -1,25 +1,19 @@
 import "./landing.scss";
-import Button from "react-bootstrap/Button";
-
-function App() {
+import AppBar from "../containers/AppBar";
+import Hero from "../containers/Hero";
+import Description from "../containers/Description";
+import AboutUs from "../containers/AboutUs";
+import Timeline from "../containers/Timeline";
+import Try from "../containers/Try";
+export default function LandingPage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button>Hello bootstrap</Button>
-      </header>
+    <div className="landing-page">
+      <AppBar />
+      <Hero />
+      <Description />
+      <AboutUs />
+      <Timeline />
+      <Try />
     </div>
   );
 }
-
-export default App;
