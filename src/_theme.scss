@@ -7,6 +7,8 @@
 body {
   background-color: black;
   color: white;
+  font-family: $custom-body-font;
+  font-size: 1.3rem;
 }
 
 .active {
@@ -24,6 +26,8 @@ body {
 
 .card {
   background-color: $custom-grey-pink;
+  border-radius: 1.5rem;
+  padding: 1rem 0;
 }
 
 .nav .nav-tabs .nav-item .nav-link {
