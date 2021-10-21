@@ -1,6 +1,13 @@
+@import "../theme";
+
 .app-bar {
   background-color: black;
   height: 6rem;
+
+  @include media-breakpoint-down(md) {
+    height: min-content;
+  }
+
   .links-container {
     justify-content: flex-end;
 

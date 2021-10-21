@@ -7,7 +7,7 @@ import HeroImage from "../assets/logo_700x700_transparent_white.svg";
 
 export default function Hero() {
   return (
-    <Container className="custom-hero" id="home">
+    <Container className="container-margin custom-hero" id="home">
       <Row>
         <Col lg={7} className="logo">
           <Image src={HeroImage} fluid />

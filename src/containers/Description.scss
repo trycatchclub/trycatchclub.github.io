@@ -1,7 +1,6 @@
-@import "../variables";
+@import "../theme";
 
 .description {
-  margin: $container-margin;
   .explanation {
     display: flex;
     flex-direction: column;
@@ -15,5 +14,9 @@
     min-height: min-content;
     height: 30rem;
     width: 100%;
+
+    @include media-breakpoint-down(sm) {
+      height: 22rem;
+    }
   }
 }

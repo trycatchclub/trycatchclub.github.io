@@ -14,7 +14,7 @@ export default function AboutUs({ id, header, children, className }) {
           <Header>{header}</Header>
         </Col>
       </Row>
-      <div className="main">{children}</div>
+      <div className="content-margin main">{children}</div>
     </Container>
   );
 }
