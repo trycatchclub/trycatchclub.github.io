@@ -46,7 +46,7 @@ catch (Exception e) {
 
 export default function Description() {
   return (
-    <Container className="description">
+    <Container className="container-margin description">
       <Row>
         <Col className="explanation">
           <i>

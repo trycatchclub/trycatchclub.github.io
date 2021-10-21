@@ -1,6 +1,10 @@
-@import "../variables";
+@import "../theme";
 
 .custom-header {
   font-family: $custom-body-font;
   font-size: 4rem;
+
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
 }

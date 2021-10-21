@@ -9,6 +9,10 @@ body {
   color: white;
   font-family: $custom-body-font;
   font-size: 1.3rem;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 1rem;
+  }
 }
 
 .active {
@@ -52,6 +56,22 @@ body {
   color: $custom-code-pink;
   font-size: 2rem;
 }
+
+.container-margin {
+  margin: 8rem auto;
+  @include media-breakpoint-down(sm) {
+    margin: 4rem auto;
+  }
+}
+
+.content-margin {
+  margin: 4rem;
+
+  @include media-breakpoint-down(sm) {
+    margin: 2.5rem;
+  }
+}
+
 strong {
   color: $custom-code-pink;
 }
