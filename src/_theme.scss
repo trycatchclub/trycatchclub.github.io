@@ -18,6 +18,20 @@ body {
 .btn-primary {
   background-color: $custom-code-pink;
   border: none;
+  &:hover {
+    background-color: white;
+    color: $custom-grey-pink;
+  }
+  &:focus {
+    background-color: $custom-code-pink;
+    border: none;
+    box-shadow: pink;
+  }
+  &:focus {
+    background-color: $custom-code-pink;
+    border: none;
+    box-shadow: none;
+  }
 }
 
 .navbar {
@@ -40,4 +54,10 @@ body {
 }
 strong {
   color: $custom-code-pink;
+}
+
+a {
+  &:hover {
+    color: white;
+  }
 }

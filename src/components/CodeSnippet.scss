@@ -3,16 +3,27 @@
 .code-snippet {
   padding: 1rem;
 
-  .nav-link {
-    color: white;
-    border-radius: 1rem 1rem 0 0;
-    border-bottom: none;
+  .code-tabs {
+    border-width: 0.2rem;
 
-    &.active {
-      background-color: $custom-grey-pink;
-      color: $custom-code-pink;
+    .nav-link {
+      color: white;
+      border-radius: 1rem 1rem 0 0;
+      border-bottom: none;
+      border-width: 0.2rem;
+      transform: translateY(0.1rem);
+
+      &:hover {
+        color: $custom-code-pink;
+      }
+
+      &.active {
+        background-color: $custom-grey-pink;
+        color: $custom-code-pink;
+      }
     }
   }
+
   .tab-content {
     margin: 1rem;
   }
