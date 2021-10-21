@@ -5,6 +5,8 @@ import Description from "../containers/Description";
 import AboutUs from "../containers/AboutUs";
 import Timeline from "../containers/Timeline";
 import Try from "../containers/Try";
+import Footer from "../containers/Footer";
+
 export default function LandingPage() {
   return (
     <div className="landing-page">
@@ -14,6 +16,7 @@ export default function LandingPage() {
       <AboutUs />
       <Timeline />
       <Try />
+      <Footer />
     </div>
   );
 }

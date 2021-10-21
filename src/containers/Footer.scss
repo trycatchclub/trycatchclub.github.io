@@ -1,0 +1,26 @@
+@import "../variables";
+
+.footer {
+  background-color: $custom-grey-pink;
+  padding: 2.5rem;
+  align-items: center;
+  justify-content: center;
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    height: 5rem;
+  }
+
+  .socials {
+    font-size: 2rem;
+
+    a {
+      margin: 0 0.5rem;
+    }
+  }
+}
