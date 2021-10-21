@@ -2,11 +2,10 @@ import "./Try.scss";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 
 import Section from "../components/Section";
+import ProjectCard from "../components/ProjectCard";
+import CareerSociusImage from "../assets/careersocius.jpg";
 
 export default function Timeline() {
   return (
@@ -30,39 +29,15 @@ export default function Timeline() {
       </Row>
       <Row>
         <Col>
-          <Card className="project-card">
-            <Container>
-              <Row>
-                <Col lg={7}>
-                  <div className="title">CareerSocius Platform</div>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Fusce viverra magna ac tellus aliquam, non vestibulum tortor
-                    condimentum. Ut vehicula accumsan condimentum. Praesent eu
-                    lacinia lectus, vitae scelerisque massa. Mauris porttitor
-                    dictum nibh, ac suscipit metus congue vitae.
-                  </div>
-                </Col>
-                <Col className="details" lg={5}>
-                  <div className="details-section">
-                    <div className="title sub-title">Mentor</div>
-                    <div>Milla Samuel</div>
-                  </div>
-                  <div className="details-section">
-                    <div className="title sub-title">Looking For</div>
-                    <div>
-                      <span className="job-badge">Software Engineer</span>
-                      <span className="job-badge">Product Manager</span>
-                      <span className="job-badge">Head of Product</span>
-                    </div>
-                  </div>
-                  <div className="details-section">
-                    <Button>Apply Now</Button>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </Card>
+          <ProjectCard
+            organization="CareerSocius"
+            image={CareerSociusImage}
+            project="Career Portal"
+            orgDescription="CareerSocius is a social enterprise that helps job-seekers in Singapore build and enhance their personal brands to enable them to clinch their dream jobs."
+            projDescription="CareerSocius' career portal will be integral to their client's personal branding journey. The career portal boasts a timeline feature that shows the client's resume revisions using the in-app resume builder, while keeping track of the client's notes and journal entries. These journal entries will also allow users to embed custom quiz results and answers as blocks, making the portal truly a one-stop shop for all of CareerSocius' client needs."
+            mentor="Milla Samuel"
+            roles={["Software Engineer", "Product Manager", "Head of Product"]}
+          />
         </Col>
       </Row>
     </Section>

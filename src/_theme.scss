@@ -8,7 +8,7 @@ body {
   background-color: black;
   color: white;
   font-family: $custom-body-font;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
   @include media-breakpoint-down(sm) {
     font-size: 1rem;
