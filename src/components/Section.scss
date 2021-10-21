@@ -1,8 +1,18 @@
-@import "../variables";
+@import "../theme";
 
 .section {
+  padding-top: 6rem;
+
+  @include media-breakpoint-down(sm) {
+    padding-left: 2rem;
+  }
+
   .main {
     margin: $container-inner-margin;
     text-align: justify;
+
+    @include media-breakpoint-down(sm) {
+      margin: 0.5rem;
+    }
   }
 }

@@ -1,6 +1,6 @@
 @import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/variables";
 @import "variables.scss";
 @import "node_modules/bootstrap/scss/bootstrap";
 
@@ -27,13 +27,17 @@ body {
 .card {
   background-color: $custom-grey-pink;
   border-radius: 1.5rem;
-  padding: 1rem 0;
 }
 
-.nav .nav-tabs .nav-item .nav-link {
-  background-color: $custom-grey-pink;
+.badge {
+  border-radius: 3rem;
+  margin-right: 0.5rem;
 }
 
+.title {
+  color: $custom-code-pink;
+  font-size: 2rem;
+}
 strong {
   color: $custom-code-pink;
 }

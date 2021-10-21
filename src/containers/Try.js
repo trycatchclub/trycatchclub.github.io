@@ -3,7 +3,6 @@ import "./Try.scss";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Badge from "react-bootstrap/Badge";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
@@ -23,16 +22,18 @@ export default function Timeline() {
     >
       <Row>
         <Col>
-          we are calling for <strong>female</strong> students for{" "}
-          <strong>one</strong> project:
+          <div className="try-desc">
+            we are calling for <strong>female</strong> students for{" "}
+            <strong>one</strong> project:
+          </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Card>
+          <Card className="project-card">
             <Container>
               <Row>
-                <Col>
+                <Col lg={7}>
                   <div className="title">CareerSocius Platform</div>
                   <div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -42,17 +43,22 @@ export default function Timeline() {
                     dictum nibh, ac suscipit metus congue vitae.
                   </div>
                 </Col>
-                <Col>
-                  {" "}
-                  <div className="sub-title">Mentor</div>
-                  <div>Milla Samuel</div>
-                  <div className="sub-title">Looking For</div>
-                  <div>
-                    <Badge>Software Engineer</Badge>{" "}
-                    <Badge>Product Manager</Badge>{" "}
-                    <Badge>Head of Product</Badge>
+                <Col className="details" lg={5}>
+                  <div className="details-section">
+                    <div className="title sub-title">Mentor</div>
+                    <div>Milla Samuel</div>
                   </div>
-                  <Button>Apply Now</Button>
+                  <div className="details-section">
+                    <div className="title sub-title">Looking For</div>
+                    <div>
+                      <span className="job-badge">Software Engineer</span>
+                      <span className="job-badge">Product Manager</span>
+                      <span className="job-badge">Head of Product</span>
+                    </div>
+                  </div>
+                  <div className="details-section">
+                    <Button>Apply Now</Button>
+                  </div>
                 </Col>
               </Row>
             </Container>

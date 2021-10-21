@@ -26,14 +26,14 @@ export default function AboutUs() {
       </Row>
       <Row>
         <Col className="sub-section">
-          <div className="section-heading">work on a project</div>
+          <div className="title">work on a project</div>
           <div className="section-description">
             that is technically challenging. Up your practical skills, and have
             a cool side project to show it off on your resume.
           </div>
         </Col>
         <Col className="sub-section">
-          <div className="section-heading">with meaning</div>
+          <div className="title">with meaning</div>
           <div className="section-description">
             as your project directly helps a non-profit. Not only is your work
             impactful, you have proof that your project is functional and used
@@ -41,7 +41,7 @@ export default function AboutUs() {
           </div>
         </Col>
         <Col className="sub-section">
-          <div className="section-heading">under mentorship</div>
+          <div className="title">under mentorship</div>
           <div className="section-description">
             When you hit a roadblock, schedule a meeting with our mentors for a
             pair programming session. Get regular code reviews to ensure your

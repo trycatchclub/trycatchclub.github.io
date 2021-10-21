@@ -1,5 +1,37 @@
 @import "../variables";
 
 .try {
-  display: block;
+  .try-desc {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .project-card {
+    margin: 1rem;
+    padding: 2.5rem;
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding-left: 3rem;
+      .sub-title {
+        font-size: 1.5rem;
+      }
+
+      .details-section {
+        margin-bottom: 1.5rem;
+      }
+
+      .job-badge {
+        color: white;
+        border: solid 0.25rem $custom-code-pink;
+        border-radius: 2rem;
+        font-size: 1rem;
+        display: inline-block;
+        padding: 0 0.5rem;
+        margin: 0 0.5rem 0.5rem 0;
+      }
+    }
+  }
 }

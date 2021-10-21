@@ -2,9 +2,47 @@ import "./Description.scss";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Tabs from "react-bootstrap/Tabs";
-import Tab from "react-bootstrap/Tab";
+import CodeSnippet from "../components/CodeSnippet";
+
+const CODE_SNIPPET_TRY_CATCH = [
+  {
+    key: "js",
+    highlightLanguage: "language-javascript",
+    title: "Javascript",
+    content: `try {
+  you.wake();
+  you.code();
+} catch {
+  console.log("its okay to fail, " + you.name);
+}`,
+  },
+  {
+    key: "java",
+    title: "Java",
+    highlightLanguage: "language-java",
+    content: `try {
+  Person you = new Person();
+  you.code();
+}
+catch (Exception e) {
+  System.out.println("it's fine!");
+}`,
+  },
+  {
+    key: "cpp",
+    highlightLanguage: "language-cpp",
+    title: "C++",
+    content: `try {
+  if (you.deadlineDue == true) {
+    you.work();
+  } else {
+    you.rest();
+  }
+} catch ( ExceptionName e ) {
+  cout << "all's good, don't worry" << endl;
+}`,
+  },
+];
 
 export default function Description() {
   return (
@@ -20,30 +58,11 @@ export default function Description() {
             be there to catch you if you fail.
           </p>
         </Col>
-        <Col>
-          <Card>
-            <Tabs efaultActiveKey="js">
-              <Tab eventKey="js" title="Javascript">
-                <div className="code">
-                  {`try {
-                    you.sleep();
-                    you.wake();
-                    you.motivate();
-                    you.code();
-                  }
-                  catch (e) {
-                    console.log(“its okay to fail ” + you.name);
-                  }`}
-                </div>
-              </Tab>
-              <Tab eventKey="java" title="Java">
-                <div className="code">helloooo helloooo helloooo</div>
-              </Tab>
-              <Tab eventKey="cpp" title="C++">
-                <div className="code">helloooo helloooo helloooo</div>
-              </Tab>
-            </Tabs>
-          </Card>
+        <Col lg={6}>
+          <CodeSnippet
+            tabContent={CODE_SNIPPET_TRY_CATCH}
+            className="try-catch-code"
+          />
         </Col>
       </Row>
     </Container>
