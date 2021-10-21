@@ -17,7 +17,6 @@ export default function Timeline() {
       id="signup"
       header={
         <span>
-          {" "}
           want to <strong>try</strong>?
         </span>
       }
