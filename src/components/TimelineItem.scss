@@ -1,32 +1,37 @@
-@import "../variables";
+@import "../theme";
 
 .timeline-item {
   border-left: solid 0.5rem transparent;
   padding-bottom: 5rem;
+  position: relative;
+
+  @include media-breakpoint-down(lg) {
+    border-width: 0.3rem;
+  }
 
   &.left-border {
     border-left: solid 0.5rem $custom-code-pink;
   }
 
-  .timeline-header {
+  .timeline-circle {
     transform: translate(-1.25rem, -1.25rem);
-    display: flex;
-    align-items: flex-start;
-
-    .timeline-circle {
-      border: solid 0.5rem $custom-code-pink;
-      border-radius: 100%;
-      width: 2rem;
-      height: 2rem;
-      background-color: black;
-    }
-
-    .timeline-headings {
-      padding-left: 2rem;
-      transform: translate(0, -0.75rem);
-    }
+    position: absolute;
+    border: solid 0.5rem $custom-code-pink;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
   }
+
+  .timeline-headings {
+    transform: translate(0, -1.75rem);
+  }
+
   .timeline-description {
-    margin-left: 3rem;
+    margin-left: 2rem;
+
+    @include media-breakpoint-down(lg) {
+      margin-left: 1rem;
+    }
   }
 }
