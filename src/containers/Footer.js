@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import HeroImage from "../assets/logo_700x700_transparent_white.svg";
 
-import Socials from "../components/Socials";
+import Socials from "./Socials";
 
 export default function Footer() {
   return (

@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
-import Socials from "../components/Socials";
+import Socials from "./Socials";
 
 export default function AppBar() {
   return (
