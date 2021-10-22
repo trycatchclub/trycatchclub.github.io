@@ -18,16 +18,16 @@ export default function TimelineItem({
         className ?? ""
       }`}
     >
-      <div className="timeline-header">
-        <div className="timeline-circle" />
-        <div className="timeline-headings">
-          <div className="title">{title}</div>
-          <div className="timeline-date">
-            {`${startDate} ${endDate ? `- ${endDate}` : ""}`}
-          </div>
-        </div>
-      </div>
+      <div className="timeline-circle" />
       <Container>
+        <Row>
+          <Col className="timeline-headings">
+            <div className="title">{title}</div>
+            <div className="timeline-date">
+              {`${startDate} ${endDate ? `- ${endDate}` : ""}`}
+            </div>
+          </Col>
+        </Row>
         <Row>
           <Col className="timeline-description">{children}</Col>
         </Row>
