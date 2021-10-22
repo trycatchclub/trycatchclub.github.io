@@ -15,5 +15,18 @@
       color: white;
       margin: auto auto 0 2rem;
     }
+
+    .nav-item {
+      margin: auto auto auto 2rem;
+    }
+
+    .socials {
+      font-size: 1.5rem;
+      text-align: center;
+
+      a {
+        margin: 0 1rem;
+      }
+    }
   }
 }

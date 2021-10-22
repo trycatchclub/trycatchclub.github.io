@@ -3,15 +3,11 @@ import "./Footer.scss";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import {
-  faLinkedin,
-  faFacebook,
-  faTelegram,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import Image from "react-bootstrap/Image";
 import HeroImage from "../assets/logo_700x700_transparent_white.svg";
+
+import Socials from "./Socials";
 
 export default function Footer() {
   return (
@@ -26,20 +22,8 @@ export default function Footer() {
               © 2021
             </div>
           </Col>
-          <Col className="footer-content socials">
-            {" "}
-            <a href="https://www.linkedin.com/company/trycatchclub/">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href="https://www.facebook.com/groups/1053470348839870">
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a href="https://t.me/trycatchclub">
-              <FontAwesomeIcon icon={faTelegram} />
-            </a>
-            <a href="https://www.instagram.com/trycatchclub/">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
+          <Col className="footer-content">
+            <Socials />
           </Col>
         </Row>
       </Container>
