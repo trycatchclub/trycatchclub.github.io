@@ -20,38 +20,44 @@ export default function ProjectCard({
   return (
     <Card className="project-card">
       <Container>
-        <Row className="mb-5">
+        <Row>
           <Col lg={2}>
-            <Image src={image} fluid />
-          </Col>
-          <Col className="organization-container">
-            <div className="title white">
-              Organization: <strong>{organization}</strong>
+            <div className="section">
+              <Image src={image} fluid />
             </div>
-            <div>{orgDescription}</div>
+          </Col>
+          <Col>
+            <div className="section">
+              <div className="title white">
+                Organization: <strong>{organization}</strong>
+              </div>
+              <div>{orgDescription}</div>
+            </div>
           </Col>
         </Row>
         <Row>
           <Col lg={7}>
-            <div className="title white">
-              Project: <strong>{project}</strong>
+            <div className="section">
+              <div className="title white">
+                Project: <strong>{project}</strong>
+              </div>
+              <div>{projDescription}</div>
             </div>
-            <div>{projDescription}</div>
           </Col>
           <Col className="details" lg={5}>
-            <div className="details-section">
-              <div className="title sub-title">Mentor</div>
+            <div className="section">
+              <div className="title small-title">Mentor</div>
               <div>{mentor}</div>
             </div>
-            <div className="details-section">
-              <div className="title sub-title">Looking For</div>
+            <div className="section">
+              <div className="title small-title">Looking For</div>
               <div>
                 {roles.map((role) => {
                   return <span className="job-badge">{role}</span>;
                 })}
               </div>
             </div>
-            <div className="details-section">
+            <div className="section">
               <Button href={link}>Apply Now</Button>
             </div>
           </Col>
