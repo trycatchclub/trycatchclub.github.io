@@ -48,7 +48,13 @@ export default function Ask() {
               </Form.Group>
               <Form.Group className="mb-3" controlId="message">
                 <Form.Label>Message *</Form.Label>
-                <Form.Control as="textarea" name="message" rows={3} required />
+                <Form.Control
+                  as="textarea"
+                  name="message"
+                  rows={3}
+                  placeholder="Reach out, ask us anything!"
+                  required
+                />
               </Form.Group>
               <Button type="submit" disabled={state.submitting}>
                 Submit
