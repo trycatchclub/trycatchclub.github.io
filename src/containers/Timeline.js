@@ -2,6 +2,8 @@ import "./Timeline.scss";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
 
 import Section from "../components/Section";
 import TimelineItem from "../components/TimelineItem";
@@ -47,7 +49,16 @@ export default function Timeline() {
           >
             Work in an agile team for these 4.5 months to achieve your project's
             objectives. You will be working very closely with your mentor, team
-            mates and have to commit to weekly meetings.
+            mates and the partner on the project.
+            <Card className="commitment">
+              <div className="title small-title">You have to commit...</div>
+              <ListGroup>
+                <ListGroup.Item>2 hours of meetings a week</ListGroup.Item>
+                <ListGroup.Item>
+                  complete 2 - 3 tasks a week, on your own time
+                </ListGroup.Item>
+              </ListGroup>
+            </Card>
           </TimelineItem>
           <TimelineItem title="Graduation!" startDate="15 Apr 2022" isEnd />
         </Col>

@@ -17,7 +17,7 @@ export default function AboutUs() {
     >
       <Row>
         <Col>
-          try<strong>{`{catch}`}</strong> is an women in tech organization that
+          try<strong>{`{catch}`}</strong> is a women in tech organization that
           builds software projects for social good in Singapore. Under the
           guidance of experienced software engineers and product managers, we
           replicate a professional tech environment for female students to
@@ -28,16 +28,16 @@ export default function AboutUs() {
         <Col className="sub-section" lg={4}>
           <div className="title">work on a project</div>
           <div className="section-description">
-            that is technically challenging. Up your practical skills, and have
-            a cool side project to show it off on your resume.
+            Up your practical skills, and have a cool and technically
+            challenging project to show off on your resume.
           </div>
         </Col>
         <Col className="sub-section" lg={4}>
           <div className="title">with meaning</div>
           <div className="section-description">
-            as your project directly helps a non-profit. Not only is your work
-            impactful, you have proof that your project is functional and used
-            on the ground.
+            Your project directly helps a social enterprise. Not only is your
+            work impactful, you also have proof that your project is functional
+            and used on the ground.
           </div>
         </Col>
         <Col className="sub-section" lg={4}>

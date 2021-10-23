@@ -35,8 +35,15 @@ export default function Timeline() {
             organization="CareerSocius"
             image={CareerSociusImage}
             project="Career Portal"
-            orgDescription="CareerSocius is a social enterprise that helps job-seekers in Singapore build and enhance their personal brands to enable them to clinch their dream jobs."
-            projDescription="CareerSocius' career portal will be integral to their client's personal branding journey. The career portal boasts a timeline feature that shows the client's resume revisions using the in-app resume builder, while keeping track of the client's notes and journal entries. These journal entries will also allow users to embed custom quiz results and answers as blocks, making the portal truly a one-stop shop for all of CareerSocius' client needs."
+            orgDescription={
+              <span>
+                <a href="https://www.careersocius.com/">CareerSocius</a> is a
+                social enterprise that helps job-seekers in Singapore build and
+                enhance their personal brands to enable them to clinch their
+                dream jobs.
+              </span>
+            }
+            projDescription="CareerSocius' career portal will be integral to its users' personal branding journey. The career portal will boast a timeline feature that shows the user's resume revisions using their in-app resume builder. At the same time, clients can keep track of information by recording journal entries and consolidating custom quiz answers. Equipped with ample resources to empower them, the portal will truly be a one-stop platform for all job-seekers."
             mentor={
               <span>
                 <a href="https://www.linkedin.com/in/millasml/">
