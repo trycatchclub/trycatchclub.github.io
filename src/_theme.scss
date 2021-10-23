@@ -47,6 +47,18 @@ body {
   border-radius: 1.5rem;
 }
 
+.list-group {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
 .badge {
   border-radius: 3rem;
   margin-right: 0.5rem;
@@ -55,6 +67,10 @@ body {
 .title {
   color: $custom-code-pink;
   font-size: 2rem;
+}
+
+.small-title {
+  font-size: 1.5rem;
 }
 
 .container-margin {
