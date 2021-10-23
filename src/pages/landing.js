@@ -6,6 +6,7 @@ import AboutUs from "../containers/AboutUs";
 import Timeline from "../containers/Timeline";
 import Try from "../containers/Try";
 import Footer from "../containers/Footer";
+import Ask from "../containers/Ask";
 
 export default function LandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
       <AboutUs />
       <Timeline />
       <Try />
+      <Ask />
       <Footer />
     </div>
   );
