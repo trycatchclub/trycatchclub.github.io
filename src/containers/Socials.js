@@ -14,7 +14,7 @@ export default function Socials() {
       <a href="https://www.linkedin.com/company/trycatchclub/">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
-      <a href="https://www.facebook.com/groups/1053470348839870">
+      <a href="https://www.facebook.com/Trycatch-club-110024224797870">
         <FontAwesomeIcon icon={faFacebook} />
       </a>
       <a href="https://t.me/trycatchclub">
