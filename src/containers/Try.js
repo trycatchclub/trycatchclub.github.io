@@ -53,6 +53,7 @@ export default function Timeline() {
               </span>
             }
             roles={["Software Engineer", "Product Manager", "Head of Product"]}
+            link="https://forms.gle/i9UsS3dZrqaNab547"
           />
         </Col>
       </Row>
