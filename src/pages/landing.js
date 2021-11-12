@@ -15,8 +15,8 @@ export default function LandingPage() {
       <Hero />
       <Description />
       <AboutUs />
-      <Timeline />
       <Try />
+      <Timeline />
       <Ask />
       <Footer />
     </div>

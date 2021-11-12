@@ -10,7 +10,7 @@ import CareerSociusImage from "../assets/careersocius.jpg";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Timeline() {
+export default function Try() {
   return (
     <Section
       className="try"

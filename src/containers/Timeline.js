@@ -31,11 +31,21 @@ export default function Timeline() {
           </TimelineItem>
           <TimelineItem
             title="Pre-recorded Info Session"
-            startDate="15 Nov 2021"
+            startDate="Released 13 Nov 2021"
           >
             Hear more about trycatch and the organization we are working with
             this cycle. Understand what we are looking out for in applicants,
             and more!
+            <div className="info-container">
+              <iframe
+                className="info-video"
+                src="https://www.youtube.com/embed/kV0Fn4cry7s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </TimelineItem>
           <TimelineItem title="Team Onboarding" startDate="10 Dec 2021">
             Welcome to the first class of trycatch! In this quick team
