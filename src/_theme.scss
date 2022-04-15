@@ -8,10 +8,10 @@ body {
   background-color: black;
   color: white;
   font-family: $custom-body-font;
-  font-size: 1.2rem;
+  font-size: 1rem;
 
   @include media-breakpoint-down(sm) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -36,10 +36,6 @@ body {
     border: none;
     box-shadow: none;
   }
-}
-
-.navbar {
-  font-family: $custom-header-font;
 }
 
 .card {
