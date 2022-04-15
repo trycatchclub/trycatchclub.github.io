@@ -12,9 +12,9 @@ export default function AppBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="links-container">
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#signup">Sign Up</Nav.Link>
+            <Nav.Link href="/#home">Home</Nav.Link>
+            <Nav.Link href="/#about">About</Nav.Link>
+            <Nav.Link href="/#signup">Sign Up</Nav.Link>
             <Nav.Item>
               <Socials />
             </Nav.Item>
