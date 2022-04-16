@@ -1,7 +1,7 @@
 @import "../theme";
 
 .section {
-  padding-top: 6rem;
+  padding-top: 2rem;
 
   @include media-breakpoint-down(sm) {
     padding-top: 0;

@@ -70,7 +70,7 @@ body {
 }
 
 .container-margin {
-  margin: 8rem auto;
+  margin: 8rem auto 2rem;
   @include media-breakpoint-down(sm) {
     margin: 4rem auto;
   }
