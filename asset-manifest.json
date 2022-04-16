@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9bbbfb7f.chunk.css",
-    "main.js": "/static/js/main.fc543f04.chunk.js",
-    "main.js.map": "/static/js/main.fc543f04.chunk.js.map",
+    "main.js": "/static/js/main.1ef92b22.chunk.js",
+    "main.js.map": "/static/js/main.1ef92b22.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8baf74d.js",
     "runtime-main.js.map": "/static/js/runtime-main.a8baf74d.js.map",
     "static/js/2.f8de2e9e.chunk.js": "/static/js/2.f8de2e9e.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/baihe.6bfbe447.jpeg": "/static/media/baihe.6bfbe447.jpeg",
     "static/media/careersocius.733295a4.jpg": "/static/media/careersocius.733295a4.jpg",
     "static/media/careersocius_portal.c772acc6.png": "/static/media/careersocius_portal.c772acc6.png",
+    "static/media/eunice.d84292b4.jpg": "/static/media/eunice.d84292b4.jpg",
     "static/media/grace.6eb2f565.jpg": "/static/media/grace.6eb2f565.jpg",
     "static/media/harshita.1eef0732.jpg": "/static/media/harshita.1eef0732.jpg",
     "static/media/keerthi.259e570e.jpg": "/static/media/keerthi.259e570e.jpg",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.a8baf74d.js",
     "static/js/2.f8de2e9e.chunk.js",
     "static/css/main.9bbbfb7f.chunk.css",
-    "static/js/main.fc543f04.chunk.js"
+    "static/js/main.1ef92b22.chunk.js"
   ]
 }
