@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.52381def.chunk.css",
-    "main.js": "/static/js/main.93f35333.chunk.js",
-    "main.js.map": "/static/js/main.93f35333.chunk.js.map",
+    "main.css": "/static/css/main.9bbbfb7f.chunk.css",
+    "main.js": "/static/js/main.fc543f04.chunk.js",
+    "main.js.map": "/static/js/main.fc543f04.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8baf74d.js",
     "runtime-main.js.map": "/static/js/runtime-main.a8baf74d.js.map",
     "static/js/2.f8de2e9e.chunk.js": "/static/js/2.f8de2e9e.chunk.js",
     "static/js/2.f8de2e9e.chunk.js.map": "/static/js/2.f8de2e9e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.52381def.chunk.css.map": "/static/css/main.52381def.chunk.css.map",
+    "static/css/main.9bbbfb7f.chunk.css.map": "/static/css/main.9bbbfb7f.chunk.css.map",
     "static/js/2.f8de2e9e.chunk.js.LICENSE.txt": "/static/js/2.f8de2e9e.chunk.js.LICENSE.txt",
-    "static/media/careersocius.18e14fa2.jpg": "/static/media/careersocius.18e14fa2.jpg",
+    "static/media/angela.4f6d066e.jpg": "/static/media/angela.4f6d066e.jpg",
+    "static/media/baihe.6bfbe447.jpeg": "/static/media/baihe.6bfbe447.jpeg",
+    "static/media/careersocius.733295a4.jpg": "/static/media/careersocius.733295a4.jpg",
     "static/media/careersocius_portal.c772acc6.png": "/static/media/careersocius_portal.c772acc6.png",
-    "static/media/logo_700x700_transparent_white.15cd532c.svg": "/static/media/logo_700x700_transparent_white.15cd532c.svg"
+    "static/media/grace.6eb2f565.jpg": "/static/media/grace.6eb2f565.jpg",
+    "static/media/harshita.1eef0732.jpg": "/static/media/harshita.1eef0732.jpg",
+    "static/media/keerthi.259e570e.jpg": "/static/media/keerthi.259e570e.jpg",
+    "static/media/logo_700x700_transparent_white.15cd532c.svg": "/static/media/logo_700x700_transparent_white.15cd532c.svg",
+    "static/media/megan.c6ba4fa3.jpeg": "/static/media/megan.c6ba4fa3.jpeg",
+    "static/media/meryl.47581d95.png": "/static/media/meryl.47581d95.png",
+    "static/media/milla.d08ed380.jpg": "/static/media/milla.d08ed380.jpg",
+    "static/media/raei.ad78205d.jpg": "/static/media/raei.ad78205d.jpg",
+    "static/media/sheehui.0e1c250d.png": "/static/media/sheehui.0e1c250d.png",
+    "static/media/trushti.2d112d32.jpeg": "/static/media/trushti.2d112d32.jpeg",
+    "static/media/xinyi.fe74cecf.png": "/static/media/xinyi.fe74cecf.png",
+    "static/media/yimei.c6dbda11.jpg": "/static/media/yimei.c6dbda11.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a8baf74d.js",
     "static/js/2.f8de2e9e.chunk.js",
-    "static/css/main.52381def.chunk.css",
-    "static/js/main.93f35333.chunk.js"
+    "static/css/main.9bbbfb7f.chunk.css",
+    "static/js/main.fc543f04.chunk.js"
   ]
 }
