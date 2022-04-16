@@ -1,5 +1,5 @@
 import "./PastProjectCard.scss";
-
+import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
@@ -20,7 +20,11 @@ export default function PastProjectCard({
         )}
         <Card.Text>{description}</Card.Text>
 
-        {link && <Button href={link}>Read More</Button>}
+        {link && (
+          <Link to={link}>
+            <Button>Read More</Button>
+          </Link>
+        )}
       </Card.Body>
     </Card>
   );
