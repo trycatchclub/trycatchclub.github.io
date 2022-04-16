@@ -24,6 +24,7 @@ import neha from "../../assets/careersocius_team/neha.jpeg";
 import sheehui from "../../assets/careersocius_team/sheehui.png";
 import trushti from "../../assets/careersocius_team/trushti.jpeg";
 
+import eunice from "../../assets/careersocius_team/eunice.jpg";
 import milla from "../../assets/careersocius_team/milla.jpg";
 
 import "./careersocius.scss";
@@ -120,7 +121,7 @@ const PEOPLE = [
   {
     name: "Eunice Lee",
     role: "Product Lead",
-    image: "https://cdn-icons-png.flaticon.com/512/168/168730.png",
+    image: eunice,
     linkedin: "https://www.linkedin.com/in/eunice-leerl/",
   },
   {
