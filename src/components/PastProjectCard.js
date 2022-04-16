@@ -16,7 +16,9 @@ export default function PastProjectCard({
       <Card.Body>
         <Card.Title>{project}</Card.Title>
         {organization && (
-          <Card.Subtitle>Organization: {organization}</Card.Subtitle>
+          <Card.Subtitle className="mb-4">
+            Organization: {organization}
+          </Card.Subtitle>
         )}
         <Card.Text>{description}</Card.Text>
 

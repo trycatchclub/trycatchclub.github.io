@@ -2,11 +2,12 @@
 
 .past-project-card {
   margin: 1rem 2rem;
-  width: 30rem;
   flex-shrink: 0;
+  width: 30rem;
 
 
   @include media-breakpoint-down(sm) {
     margin: 0rem;
+    width: 80%;
   }
 }
