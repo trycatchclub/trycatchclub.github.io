@@ -23,7 +23,7 @@ export default function PastProjects() {
           }
           image={CareerSociusImage}
           project="Career Portal"
-          description="CareerSocius' career portal will be integral to its users' personal branding journey. The career portal will boast a timeline feature that shows the user's resume revisions using their in-app resume builder. At the same time, clients can keep track of information by recording journal entries and consolidating custom quiz answers. Equipped with ample resources to empower them, the portal is truly a one-stop platform for all job-seekers."
+          description="One stop career platform, with a fully equipt resume builder, many journalling activities and more"
           link="/projects/careersocius"
         />
       </div>
