@@ -89,6 +89,7 @@ const PEOPLE = [
     name: "Angela Tjandra",
     role: "Software Engineer (Journal)",
     image: angela,
+    github: "https://github.com/altjandra",
     linkedin: "https://www.linkedin.com/in/angela-tjandra",
   },
   {
