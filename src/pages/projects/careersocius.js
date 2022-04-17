@@ -152,16 +152,20 @@ export default function CareerSociusProject() {
           </Col>
           <Col>
             <div className="project-description">
+              CareerSocius' career portal is integral to its users' personal
+              branding journey. The career portal boasts a timeline feature that
+              shows the user's resume revisions using their in-app resume
+              builder. At the same time, clients can keep track of interview
+              progres or career reflections by recording journal entries and
+              bespoke career-discovery activities. Equipped with ample resources
+              to empower them, the portal is truly a one-stop platform for all
+              job-seekers.
+              <br />
+              <br />
               <a href="https://www.careersocius.com/">CareerSocius</a> is a
               social enterprise that helps job-seekers in Singapore build and
               enhance their personal brands to enable them to clinch their dream
-              jobs. CareerSocius' career portal will be integral to its users'
-              personal branding journey. The career portal will boast a timeline
-              feature that shows the user's resume revisions using their in-app
-              resume builder. At the same time, clients can keep track of
-              information by recording journal entries and consolidating custom
-              quiz answers. Equipped with ample resources to empower them, the
-              portal is truly a one-stop platform for all job-seekers.
+              jobs.
               <div className="project-button-container">
                 <Button
                   href="https://careersocius-portal.web.app"
